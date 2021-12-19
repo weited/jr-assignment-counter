@@ -1,0 +1,79 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter {
+  width: 750px;
+  height: 630px;
+  background-color: #00fefc;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 1rem 1rem 0.8rem 2px rgba(0, 0, 0, 0.25);
+}
+.counter h1 {
+  font-size: 4.5rem;
+  color: #057f7e;
+}
+.counter p {
+  color: #000;
+  font-size: 5rem;
+}
+
+.btn {
+  display: inline-block;
+  width: 105px;
+  height: 50px;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 1rem;
+  border-color: #707777;
+}
+.btn:hover {
+  transform: translateY(0px);
+  box-shadow: 0 1rem 2rem rgba(112, 119, 119, 0.2);
+}
+.btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 0.5rem 1rem rgba(112, 119, 119, 0.2);
+}
+.btn-reset {
+  background-color: #fca200;
+  position: relative;
+  bottom: 6rem;
+}
+.btn-plus {
+  background-color: #8eee8c;
+}
+.btn-minus {
+  background-color: #fd5f46;
+}
+
+/*# sourceMappingURL=style.css.map */
